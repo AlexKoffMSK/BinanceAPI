@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="�������� �����">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="����� ����������">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="����� ��������">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>�������� �����</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\json11.cpp">
+      <Filter>�������� �����</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecutionFunctions\ExecutionFunctions.cpp">
+      <Filter>�������� �����</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFunctions\CommonFunctions.cpp">
+      <Filter>�������� �����</Filter>
+    </ClCompile>
+    <ClCompile Include="Rest\RestApi.cpp">
+      <Filter>�������� �����</Filter>
+    </ClCompile>
+    <ClCompile Include="Rest\Http\HttpRequest.cpp">
+      <Filter>�������� �����</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="websocketpp\client.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\close.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\connection.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\connection_base.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\endpoint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\endpoint_base.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\error.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\frame.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\server.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\uri.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\utf8_validator.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\utilities.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\version.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\base64\base64.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\asio.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\asio_ssl.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\chrono.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\connection_hdl.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\cpp11.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\functional.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\md5.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\memory.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\network.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\platforms.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\random.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\regex.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\stdint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\system_error.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\thread.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\time.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\common\type_traits.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\concurrency\basic.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\concurrency\none.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\asio.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\asio_client.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\asio_no_tls.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\asio_no_tls_client.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\boost_config.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\core.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\core_client.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\debug.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\debug_asio.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\debug_asio_no_tls.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\minimal_client.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\config\minimal_server.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\extensions\permessage_deflate\disabled.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\extensions\permessage_deflate\enabled.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\extensions\extension.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\http\impl\parser.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\http\impl\request.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\http\impl\response.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\http\constants.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\http\parser.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\http\request.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\http\response.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\impl\connection_impl.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\impl\endpoint_impl.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\impl\utilities_impl.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\logger\basic.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\logger\levels.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\logger\stub.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\logger\syslog.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\message_buffer\alloc.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\message_buffer\message.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\message_buffer\pool.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\processors\base.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\processors\hybi00.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\processors\hybi07.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\processors\hybi08.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\processors\hybi13.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\processors\processor.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\random\none.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\random\random_device.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\roles\client_endpoint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\roles\server_endpoint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\sha1\sha1.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\asio\security\base.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\asio\security\none.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\asio\security\tls.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\asio\base.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\asio\connection.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\asio\endpoint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\base\connection.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\base\endpoint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\debug\base.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\debug\connection.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\debug\endpoint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\iostream\base.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\iostream\connection.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\iostream\endpoint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\stub\base.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\stub\connection.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="websocketpp\transport\stub\endpoint.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\json11.hpp">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\JsonTests.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants\FileNames.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\curl.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\curlver.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\easy.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\header.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\mprintf.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\multi.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\options.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\stdcheaders.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\system.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\typecheck-gcc.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlRepos\include\curl\urlapi.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutionFunctions\ExecutionFunctions.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="Rest\RestApi.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="Rest\Http\HttpRequest.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunctions\CommonFunctions.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="Rest\Objects\BestOneInstrument.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+    <ClInclude Include="Rest\Objects\KlineOneInstrument.h">
+      <Filter>����� ����������</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="websocketpp\CMakeLists.txt" />
+    <Text Include="DataFiles\a.txt" />
+    <Text Include="DataFiles\RestResponseHistory.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Architecture.drawio" />
+  </ItemGroup>
+</Project>
